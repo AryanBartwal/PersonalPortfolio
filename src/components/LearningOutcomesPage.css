@@ -1,0 +1,41 @@
+.learning-outcomes {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.learning-outcomes h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.learning-outcomes h2 {
+  color: #555;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.learning-outcomes p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.learning-outcomes ul {
+  color: #666;
+  font-size: 1.1rem;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.learning-outcomes li {
+  margin-bottom: 10px;
+}

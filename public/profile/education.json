@@ -1,0 +1,25 @@
+{
+    "education": [
+        {
+            "title": "B.Tech in Computer Science and Engineering",
+            "institution": "Graphic Era Hill University",
+            "duration": "2025 - Present",
+            "grade": "GPA: 7.1",
+            "description": "Currently pursuing Bachelor of Technology in Computer Science and Engineering with focus on software development, artificial intelligence, and machine learning technologies."
+        },
+        {
+            "title": "Intermediate (Class XII)",
+            "institution": "The Heritage School",
+            "duration": "2024",
+            "grade": "78.2%",
+            "description": "Completed higher secondary education with strong foundation in mathematics, physics, and computer science."
+        },
+        {
+            "title": "Matriculate (Class X)",
+            "institution": "The Heritage School",
+            "duration": "2020",
+            "grade": "70.2%",
+            "description": "Completed secondary education with comprehensive understanding of core subjects and early exposure to computer science concepts."
+        }
+    ]
+}
