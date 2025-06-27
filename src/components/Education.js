@@ -80,7 +80,7 @@ const Education = () => {
   const [educationData, setEducationData] = useState(null);
 
   useEffect(() => {
-    fetch('/personal-e-portfolio/profile/education.json')
+    fetch('/profile/education.json')
       .then(response => response.json())
       .then(data => setEducationData(data))
       .catch(error => console.error('Error loading education data:', error));

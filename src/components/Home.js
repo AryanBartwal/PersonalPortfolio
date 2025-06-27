@@ -207,7 +207,7 @@ const Home = () => {
                 <FloatingElement />
                 <FloatingElement />
                 <HeroImage
-                  src="/personal-e-portfolio/images/about/me2.jpg"
+                  src="/images/about/me2.jpg"
                   alt="Aryan Bartwal - Personal Photo"
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/400x500/3D84C6/ffffff?text=Hero+Image';

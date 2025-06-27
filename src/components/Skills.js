@@ -129,7 +129,7 @@ const Skills = () => {
   const [skillsData, setSkillsData] = useState(null);
 
   useEffect(() => {
-    fetch('/personal-e-portfolio/profile/skills.json')
+    fetch('/profile/skills.json')
       .then(response => response.json())
       .then(data => setSkillsData(data))
       .catch(error => console.error('Error loading skills data:', error));
