@@ -58,7 +58,7 @@ const Projects = () => {
       description: "A responsive portfolio website built with React, featuring dark mode, smooth animations, and modern design.",
       technologies: ["React", "Bootstrap", "Styled Components"],
       links: [
-        { text: "Live Demo", href: "#" },
+        { text: "Live Demo", href: "https://personal-portfolio-lilac-one-57.vercel.app/" },
         { text: "GitHub", href: "#" }
       ]
     },
