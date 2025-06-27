@@ -11,7 +11,7 @@ import Projects from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
