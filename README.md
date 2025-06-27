@@ -1,5 +1,7 @@
 # Personal E-Portfolio
 
+Live Demo: [https://personal-portfolio-lilac-one-57.vercel.app/](https://personal-portfolio-lilac-one-57.vercel.app/)
+
 This is a personal e-portfolio project created using HTML, CSS, JavaScript, and React. The portfolio showcases my skills, experiences, and learning outcomes over a period of five days.
 
 ## Project Structure
