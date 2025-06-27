@@ -140,12 +140,12 @@ const Home = () => {
   const [currentRole, setCurrentRole] = useState(0);
 
   useEffect(() => {
-    fetch('/personal-e-portfolio/profile/home.json')
+    fetch('/profile/home.json')
       .then(response => response.json())
       .then(data => setHomeData(data))
       .catch(error => console.error('Error loading home data:', error));
 
-    fetch('/personal-e-portfolio/profile/social.json')
+    fetch('/profile/social.json')
       .then(response => response.json())
       .then(data => setSocialData(data))
       .catch(error => console.error('Error loading social data:', error));

@@ -63,7 +63,7 @@ const About = () => {
   const [aboutData, setAboutData] = useState(null);
 
   useEffect(() => {
-    fetch('/personal-e-portfolio/profile/about.json')
+    fetch('/profile/about.json')
       .then(response => response.json())
       .then(data => setAboutData(data))
       .catch(error => console.error('Error loading about data:', error));
@@ -80,7 +80,7 @@ const About = () => {
             <Fade left>
               <div className="text-center">
                 <ProfileImage
-                  src={`/personal-e-portfolio/${aboutData.imageSource}`}
+                  src={`/${aboutData.imageSource}`}
                   alt="Aryan Bartwal - Professional Profile"
                   fluid
                   onError={(e) => {

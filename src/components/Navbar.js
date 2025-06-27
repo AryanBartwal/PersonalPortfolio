@@ -48,7 +48,7 @@ const Navbar = ({ theme, toggleTheme }) => {
   const [navbarData, setNavbarData] = useState(null);
 
   useEffect(() => {
-    fetch('/personal-e-portfolio/profile/navbar.json')
+    fetch('/profile/navbar.json')
       .then(response => response.json())
       .then(data => setNavbarData(data))
       .catch(error => console.error('Error loading navbar data:', error));
