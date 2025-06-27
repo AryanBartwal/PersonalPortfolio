@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^5.3.7",
+    "cross-env": "^7.0.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.10.10",
     "react-chrono": "^2.9.1",
