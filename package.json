@@ -18,6 +18,8 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "bootstrap": "^5.3.7",
     "cross-env": "^7.0.3",
     "react": "^17.0.2",
