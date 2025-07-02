@@ -1,7 +1,15 @@
 {
   "build": {
     "env": {
-      "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
+      "NODE_OPTIONS": "--openssl-legacy-provider"
     }
-  }
+  },
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
+    { "src": "/(.*).(js|json|css|ico|png|jpg|jpeg|svg|pdf)", "dest": "/$1.$2" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }

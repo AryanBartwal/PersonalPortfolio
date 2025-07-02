@@ -15,7 +15,7 @@
     "web",
     "development"
   ],
-  "author": "Your Name",
+  "author": "Aryan Bartwal",
   "license": "MIT",
   "dependencies": {
     "ajv": "^6.12.6",

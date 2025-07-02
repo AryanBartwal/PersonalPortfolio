@@ -1,0 +1,115 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [
+        {
+            "title": "Programming Languages",
+            "items" : [
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+                    "title": "C/C++",
+                    "fallback": "https://via.placeholder.com/50x50/00599C/ffffff?text=C%2B%2B"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                    "title": "HTML/CSS",
+                    "fallback": "https://via.placeholder.com/50x50/E34F26/ffffff?text=HTML"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                    "title": "JavaScript",
+                    "fallback": "https://via.placeholder.com/50x50/F7DF1E/000000?text=JS"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "title": "Python",
+                    "fallback": "https://via.placeholder.com/50x50/3776AB/ffffff?text=PY"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+                    "title": "Java",
+                    "fallback": "https://via.placeholder.com/50x50/ED8B00/ffffff?text=JAVA"
+                }
+            ]
+        },
+        {
+            "title": "Web Development & Frameworks",
+            "items" : [
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                    "title": "React",
+                    "fallback": "https://via.placeholder.com/50x50/61DAFB/000000?text=REACT"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                    "title": "Node.js",
+                    "fallback": "https://via.placeholder.com/50x50/339933/ffffff?text=NODE"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+                    "title": "Responsive Design",
+                    "fallback": "https://via.placeholder.com/50x50/1572B6/ffffff?text=RWD"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+                    "title": "REST APIs",
+                    "fallback": "https://via.placeholder.com/50x50/009688/ffffff?text=API"
+                }
+            ]
+        },
+        {
+            "title": "AI/ML & Data Science",
+            "items": [
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+                    "title": "TensorFlow",
+                    "fallback": "https://via.placeholder.com/50x50/FF6F00/ffffff?text=TF"
+                },
+                {
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+                    "title": "Scikit-learn",
+                    "fallback": "https://via.placeholder.com/50x50/F7931E/ffffff?text=SKL"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+                    "title": "Neural Networks",
+                    "fallback": "https://via.placeholder.com/50x50/EE4C2C/ffffff?text=NN"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg",
+                    "title": "OpenCV",
+                    "fallback": "https://via.placeholder.com/50x50/5C3EE8/ffffff?text=CV"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+                    "title": "Data Preprocessing",
+                    "fallback": "https://via.placeholder.com/50x50/150458/ffffff?text=DATA"
+                }
+            ]
+        },
+        {
+            "title" : "Development Tools",
+            "items": [
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                    "title": "VS Code",
+                    "fallback": "https://via.placeholder.com/50x50/007ACC/ffffff?text=VSC"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+                    "title": "Git",
+                    "fallback": "https://via.placeholder.com/50x50/F05032/ffffff?text=GIT"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                    "title": "GitHub",
+                    "fallback": "https://via.placeholder.com/50x50/181717/ffffff?text=GH"
+                },
+                {
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                    "title": "Deployment",
+                    "fallback": "https://via.placeholder.com/50x50/2496ED/ffffff?text=DEPLOY"
+                }
+            ]
+        }
+    ]
+}
