@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #121212, #3D84C6);
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+        button {
+            background: #3D84C6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #2a5f8f;
+        }
+    </style>
+</head>
+<body>
+    <h1>E-Portfolio Test Page</h1>
+    <p>If you can see this page, basic HTML rendering is working in your browser. Click the button below to navigate to your React app.</p>
+    <p>You can also check out my Role Based Access Control System project on GitHub: <a href="https://github.com/AryanBartwal/RBAC-System" style="color: #ffffff; text-decoration: underline;">RBAC System Repository</a></p>
+    <button onclick="window.location.href='http://localhost:3000'">Go to React App</button>
+    
+    <script>
+        // Simple script to check if JavaScript is running
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Test page loaded successfully');
+        });
+    </script>
+</body>
+</html>
