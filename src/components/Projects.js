@@ -216,7 +216,7 @@ const Projects = () => {
       category: "Backend",
       icon: "🔐",
       links: [
-        { text: "GitHub", href: "https://github.com/AryanBartwal/Role-Based-Access-Control-System" }
+        { text: "GitHub", href: "https://github.com/AryanBartwal/RBAC-System" }
       ]
     },
     {
